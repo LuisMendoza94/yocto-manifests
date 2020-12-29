@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="LuisMendoza94" fetch="git://github.com/luismendoza94"/>
+	
+	<project remote="LuisMendoza94" 
+		 revision="master"
+		 name="yocto-manifests" 
+		 path="manifests"
+	/>
 </manifest>
