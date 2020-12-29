@@ -2,6 +2,7 @@
 <manifest>
 	<remote name="LuisMendoza94" fetch="git://github.com/luismendoza94"/>
 	<remote name="yoctoproject"  fetch="git://git.yoctoproject.org"/>
+	<remote name="freescale"     fetch="git://github.com/Freescale"/>
 	
 	<project remote="LuisMendoza94" 
 		 revision="master"
@@ -12,6 +13,12 @@
 		 revision="dunfell"
 		 name="poky"
 		 path="layers/core"
+		/>
+
+	<project remote="freescale"
+		 revision="dunfell"
+		 name="meta-freescale"
+		 path="layers/meta-freescale"
 		/>
 
 </manifest>
